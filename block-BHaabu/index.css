@@ -59,7 +59,8 @@ table {
     background-image: url("../block-BHaabu/media/p1.jpg");
     background-size: cover;
     height: 1100px;
-    background-color: rgba(0, 0, 0, 0.8);
+   
+    background-attachment: fixed;
 	
 }
 .heading{
@@ -90,22 +91,26 @@ table {
     margin-left: 50px;
 }
 .catbg{
-    background-image: url("../block-BHaabu/media/cat.jpg");
-    background-size: cover;
+   
     height: 500px;
     max-width: 1000px;
     margin: 0 auto;
     margin-top: 150px;
     border-radius: 12px;
-    opacity: 0.9;
+    background-image: url("../block-BHaabu/media/cat.jpg");
+    background-size: cover;
     
-
+    
 }
 .cat{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+   
+    background-image: linear-gradient(to right bottom, transparent, rgba(237,20,62,0.5));
+    height: 500px;
+    max-width: 1000px;
+   
     
     
     
