@@ -1,0 +1,135 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body ,span{
+	line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+
+    
+}
+ol, ul {
+	list-style: none;
+}
+
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+ } 
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* img{
+    width: 100%;
+    background-image: url(p1.jpg);
+} */
+
+.bg-image{
+    background-image: url("../block-BHaabu/media/p1.jpg");
+    background-size: cover;
+    height: 1100px;
+   
+    background-attachment: fixed;
+	
+}
+.heading{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-weight: 800;
+    padding-top: 20px;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.col{
+    
+    
+    border-radius: 10px;
+    width: 30%;
+    margin-top: 80px;
+}
+.col p{
+    font-size: 22px;
+	padding: 100px;
+	align-content: center;
+    margin-left: 50px;
+}
+.catbg{
+   
+    height: 500px;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 150px;
+    border-radius: 12px;
+    background-image: url("../block-BHaabu/media/cat.jpg");
+    background-size: cover;
+    
+    
+}
+.cat{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+    background-image: linear-gradient(to right bottom, transparent, rgba(237,20,62,0.5));
+    height: 500px;
+    max-width: 1000px;
+   
+    
+    
+    
+}
+.cat p{
+    font-size: 22px;
+	padding: 100px;
+	align-content: center;
+    /* margin-left: 200px; */
+    margin-top: 150px;
+    font-weight: 700;
+    
+}
+.box2{
+    background-image: linear-gradient(to right, #0a0a09,#EE4B47 );
+}
+.box1{
+    background-color: #EE4B47;
+}
+.box3{
+    background-image: radial-gradient( #EE4B47, #0a0a09 );
+}
