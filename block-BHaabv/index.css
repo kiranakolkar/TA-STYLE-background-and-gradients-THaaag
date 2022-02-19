@@ -1,0 +1,228 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body,
+span {
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+}
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.header {
+  background-color: #20222f;
+  height: 40vh;
+}
+.one {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading h1 {
+  font-size: 28px;
+  color: white;
+  font-weight: 600;
+}
+.heading p {
+  font-size: 15px;
+  color: #33395e;
+}
+
+.darkmode p {
+  font-size: 15px;
+  color: #54597c;
+}
+
+.box1 {
+  background-color: #252b44;
+  height: 250px;
+  width: 300px;
+  border-top: #1a8ff6 solid 6px;
+  width: 23%;
+}
+.two {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+.icon i {
+  font-size: 24px;
+  margin-bottom: 5px;
+  text-decoration: none;
+  color: white;
+}
+.icon {
+  text-decoration: none;
+}
+
+.year {
+  font-size: 40px;
+  color: white;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.follow {
+  color: #54597c;
+  font-size: 14px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  text-rendering: auto;
+}
+.today {
+  margin-top: 15px;
+  color: #47a692;
+  font-size: 14px;
+}
+.inerbox {
+  margin: 50px;
+}
+
+.three {
+  background-color: rgb(20, 23, 31);
+  margin-top: 100px;
+}
+.overview {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.overview h2 {
+  color: white;
+  font-size: 26px;
+  font-weight: 500;
+}
+.smallbox {
+  height: 150px;
+  width: 300px;
+  background-color: #252b44;
+}
+.pageview {
+  background-position: 16px 0 0;
+}
+.newicon {
+  text-decoration: none;
+  color: white;
+  background-position: 100% 0;
+}
